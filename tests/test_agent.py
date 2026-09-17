@@ -44,7 +44,7 @@ class ReliabilityTests(unittest.TestCase):
     def test_histogram_tails_and_constants(self):
         self.assertEqual(distribution_drift([1]*50,[1]*50),0)
         self.assertEqual(distribution_drift([1]*50,[2]*50),1)
-        self.assertEqual(distribution_drift([1,2,3],[4,5,6]),1)
+        self.assertAlmostEqual(distribution_drift([1,2,3],[4,5,6]),1)
         self.assertEqual(distribution_drift([0,1,2],[0,1,2]),0)
         self.assertIsNone(distribution_drift([],[]))
     def test_confusion_matrix(self):

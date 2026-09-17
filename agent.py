@@ -82,7 +82,7 @@ def distribution_drift(reference, current):
             fraction = (x / scale - low / scale) / (high / scale - low / scale)
             return min(9, int(fraction * 10))
     a, b = Counter(map(bucket, reference)), Counter(map(bucket, current))
-    return min(1.0, sum(abs(a[k] / len(reference) - b[k] / len(current)) for k in a.keys() | b.keys()) / 2)
+    return min(1.0, math.fsum(abs(a[k] / len(reference) - b[k] / len(current)) for k in a.keys() | b.keys()) / 2)
 
 
 def metrics(rows):
