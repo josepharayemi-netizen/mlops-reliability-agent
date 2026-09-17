@@ -1,0 +1,2411 @@
+{
+  "model": "demo-fraud-classifier:v1",
+  "features": [
+    "transaction_amount",
+    "account_age_days"
+  ],
+  "baseline": [
+    {
+      "features": {
+        "transaction_amount": 10,
+        "account_age_days": 30
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 15,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 20,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 25,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 30,
+        "account_age_days": 70
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 35,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 40,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 45,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 50,
+        "account_age_days": 110
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 55,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 60,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 65,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 70,
+        "account_age_days": 150
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 75,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 80,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 85,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 90,
+        "account_age_days": 190
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 95,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 100,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 105,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 110,
+        "account_age_days": 230
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 115,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 120,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 125,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 130,
+        "account_age_days": 270
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 135,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 140,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 145,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 150,
+        "account_age_days": 310
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 155,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 10,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 15,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 20,
+        "account_age_days": 350
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 25,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 30,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 35,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 40,
+        "account_age_days": 390
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 45,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 50,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 55,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 60,
+        "account_age_days": 30
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 65,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 70,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 75,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 80,
+        "account_age_days": 70
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 85,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 90,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 95,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 100,
+        "account_age_days": 110
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 105,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 110,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 115,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 120,
+        "account_age_days": 150
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 125,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 130,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 135,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 140,
+        "account_age_days": 190
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 145,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 150,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 155,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 10,
+        "account_age_days": 230
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 15,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 20,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 25,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 30,
+        "account_age_days": 270
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 35,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 40,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 45,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 50,
+        "account_age_days": 310
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 55,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 60,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 65,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 70,
+        "account_age_days": 350
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 75,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 80,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 85,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 90,
+        "account_age_days": 390
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 95,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 100,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 105,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 110,
+        "account_age_days": 30
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 115,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 120,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 125,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 130,
+        "account_age_days": 70
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 135,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 140,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 145,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 150,
+        "account_age_days": 110
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 155,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 10,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 15,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 20,
+        "account_age_days": 150
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 25,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 30,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 35,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 40,
+        "account_age_days": 190
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 45,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 50,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 55,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 60,
+        "account_age_days": 230
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 80,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 65,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 83,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 70,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 86,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 75,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 89,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 80,
+        "account_age_days": 270
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 92,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 85,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 95,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 90,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 98,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 95,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 101,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 100,
+        "account_age_days": 310
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 104,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 105,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 107,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 110,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 110,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 115,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 113,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 120,
+        "account_age_days": 350
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 116,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 125,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 119,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 130,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 122,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 135,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 125,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 140,
+        "account_age_days": 390
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 128,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 145,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 131,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 150,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 134,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 155,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 137,
+      "error": false
+    }
+  ],
+  "current": [
+    {
+      "features": {
+        "transaction_amount": 510,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 515,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 520,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 525,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 530,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 535,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 540,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 545,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 550,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 555,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 560,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 565,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 570,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 575,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 580,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 585,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 590,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 595,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 600,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 605,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 610,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 615,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 620,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 625,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 630,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 635,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 640,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 645,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 650,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 655,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 510,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 515,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 520,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 525,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 530,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 535,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 540,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 545,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 550,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 555,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 560,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 565,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 570,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 575,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 580,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 585,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 590,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 595,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 600,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 605,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 610,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 615,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 620,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 625,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 630,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 635,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 640,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 645,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 650,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 655,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 510,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 515,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 520,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 525,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 530,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 535,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 540,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 545,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 550,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 555,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 560,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 565,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 570,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 575,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 580,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 585,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 590,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 595,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 600,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 605,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 610,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 615,
+        "account_age_days": 40
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 620,
+        "account_age_days": 50
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 625,
+        "account_age_days": 60
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 630,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 635,
+        "account_age_days": 80
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 640,
+        "account_age_days": 90
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 645,
+        "account_age_days": 100
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 650,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 655,
+        "account_age_days": 120
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 510,
+        "account_age_days": 130
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 515,
+        "account_age_days": 140
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 520,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 525,
+        "account_age_days": 160
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 530,
+        "account_age_days": 170
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 535,
+        "account_age_days": 180
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 540,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 545,
+        "account_age_days": 200
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 550,
+        "account_age_days": 210
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 555,
+        "account_age_days": 220
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 560,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 650,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 565,
+        "account_age_days": 240
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 660,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 570,
+        "account_age_days": 250
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 670,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 575,
+        "account_age_days": 260
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 680,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 580,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 690,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 585,
+        "account_age_days": 280
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 700,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 590,
+        "account_age_days": 290
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 710,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 595,
+        "account_age_days": 300
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 720,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 600,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 730,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 605,
+        "account_age_days": 320
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 740,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 610,
+        "account_age_days": 330
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 750,
+      "error": true
+    },
+    {
+      "features": {
+        "transaction_amount": 615,
+        "account_age_days": 340
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 760,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 620,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 770,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 625,
+        "account_age_days": 360
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 780,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 630,
+        "account_age_days": 370
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 790,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 635,
+        "account_age_days": 380
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 800,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 640,
+        "account_age_days": null
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 810,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 645,
+        "account_age_days": 400
+      },
+      "actual": 1,
+      "prediction": 0,
+      "latency_ms": 820,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 650,
+        "account_age_days": 410
+      },
+      "actual": 0,
+      "prediction": 0,
+      "latency_ms": 830,
+      "error": false
+    },
+    {
+      "features": {
+        "transaction_amount": 655,
+        "account_age_days": 420
+      },
+      "actual": 1,
+      "prediction": 1,
+      "latency_ms": 840,
+      "error": false
+    }
+  ]
+}
